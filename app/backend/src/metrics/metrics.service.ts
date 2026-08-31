@@ -3,7 +3,6 @@ import * as client from "prom-client";
 import {
   assertMetricLabelsBounded,
   boundedMetricLabel,
-  METRIC_LABEL_OVERFLOW,
 } from "./metric-label-guard";
 
 @Injectable()
