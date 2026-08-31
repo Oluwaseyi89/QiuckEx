@@ -7,6 +7,7 @@ const mockRegistry = {
   registerMetric: jest.fn(),
   metrics: jest.fn().mockResolvedValue("mock metrics"),
   contentType: "text/plain",
+  getMetricsAsArray: jest.fn().mockReturnValue([]),
 };
 
 const mockHistogram = {
